@@ -1,3 +1,11 @@
+#!/usr/bin/env cabal
+{- cabal:
+build-depends:
+  , base
+  , primitive
+  , vector
+-}
+
 {-# LANGUAGE BangPatterns        #-}
 {-# LANGUAGE ImportQualifiedPost #-}
 {-# LANGUAGE MagicHash           #-}
