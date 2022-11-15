@@ -1,0 +1,195 @@
+--- Main.bad.dump-simpl	2022-11-15 00:22:52.304414397 +0000
++++ Main.good.dump-simpl	2022-11-15 00:23:13.935257143 +0000
+@@ -1,8 +1,8 @@
+ 
+ ==================== Tidy Core ====================
+-2022-11-15 00:22:25.740280993 UTC
++2022-11-15 00:23:03.967039097 UTC
+ 
+-Result size of Tidy Core = {terms: 1,583, types: 1,476, coercions: 393, joins: 8/21}
++Result size of Tidy Core = {terms: 1,613, types: 1,576, coercions: 393, joins: 8/21}
+ 
+ -- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+ lvl = I# 13#
+@@ -382,7 +382,7 @@
+ -- RHS size: {terms: 9, types: 4, coercions: 4, joins: 0/0}
+ lvl119 = \ x ipv -> checkError (lvl118 `cast` <Co:4> :: CallStack ~R# (?callStack::CallStack)) Bounds (checkSlice_msg# x 5# ipv)
+ 
+--- RHS size: {terms: 419, types: 419, coercions: 134, joins: 5/6}
++-- RHS size: {terms: 449, types: 519, coercions: 134, joins: 5/6}
+ main3
+   = \ store haystacks needle s ->
+       case haystacks of {
+@@ -392,105 +392,121 @@
+           join {
+             $w$j ipv3
+               = case store of { MVector bx bx1 bx2 ->
+-                case unsafeFreezeArray#
+-                       (bx2 `cast` <Co:8> :: MutableArray# (PrimState IO) (Vector Int) ~R# MutableArray# (PrimState (ST (PrimState IO))) (Vector Int))
+-                       (ipv3 `cast` <Co:4> :: State# RealWorld ~R# State# (PrimState (ST (PrimState IO))))
+-                of
++                case newArray# bx1 uninitialised (ipv3 `cast` <Co:4> :: State# RealWorld ~R# State# (PrimState (ST (PrimState IO)))) of
+                 { (# ipv4, ipv5 #) ->
++                case copyMutableArray#
++                       (bx2 `cast` <Co:8> :: MutableArray# (PrimState IO) (Vector Int) ~R# MutableArray# (PrimState (ST (PrimState IO))) (Vector Int))
++                       bx
++                       ipv5
++                       0#
++                       bx1
++                       ipv4
++                of s'#
++                { __DEFAULT ->
++                case unsafeFreezeArray# ipv5 s'# of { (# ipv6, ipv7 #) ->
+                 case seq#
+-                       (case $wprocessOne bx bx1 ipv5 0# of ww { __DEFAULT -> I# ww })
+-                       (ipv4 `cast` <Co:3> :: State# (PrimState (ST (PrimState IO))) ~R# State# RealWorld)
++                       (case $wprocessOne 0# bx1 ipv7 0# of ww { __DEFAULT -> I# ww })
++                       (ipv6 `cast` <Co:3> :: State# (PrimState (ST (PrimState IO))) ~R# State# RealWorld)
+                 of
+-                { (# ipv6, ipv7 #) ->
++                { (# ipv8, ipv9 #) ->
+                 letrec {
+                   go2
+-                    = \ ds2 eta ->
+-                        case ds2 of {
++                    = \ ds3 eta ->
++                        case ds3 of {
+                           [] -> (# eta, [] #);
+                           : y1 ys1 ->
+                             join {
+-                              $w$j1 ipv8
+-                                = case unsafeFreezeArray#
++                              $w$j1 ipv10
++                                = case newArray# bx1 uninitialised (ipv10 `cast` <Co:4> :: State# RealWorld ~R# State# (PrimState (ST (PrimState IO)))) of
++                                  { (# ipv11, ipv12 #) ->
++                                  case copyMutableArray#
+                                          (bx2 `cast` <Co:8> :: MutableArray# (PrimState IO) (Vector Int) ~R# MutableArray# (PrimState (ST (PrimState IO))) (Vector Int))
+-                                         (ipv8 `cast` <Co:4> :: State# RealWorld ~R# State# (PrimState (ST (PrimState IO))))
+-                                  of
+-                                  { (# ipv9, ipv10 #) ->
++                                         bx
++                                         ipv12
++                                         0#
++                                         bx1
++                                         ipv11
++                                  of s'#1
++                                  { __DEFAULT ->
++                                  case unsafeFreezeArray# ipv12 s'#1 of { (# ipv13, ipv14 #) ->
+                                   case seq#
+-                                         (case $wprocessOne bx bx1 ipv10 0# of ww { __DEFAULT -> I# ww })
+-                                         (ipv9 `cast` <Co:3> :: State# (PrimState (ST (PrimState IO))) ~R# State# RealWorld)
++                                         (case $wprocessOne 0# bx1 ipv14 0# of ww { __DEFAULT -> I# ww })
++                                         (ipv13 `cast` <Co:3> :: State# (PrimState (ST (PrimState IO))) ~R# State# RealWorld)
+                                   of
+-                                  { (# ipv11, ipv12 #) ->
+-                                  case go2 ys1 ipv11 of { (# ipv13, ipv14 #) -> (# ipv13, : ipv12 ipv14 #) }
++                                  { (# ipv15, ipv16 #) ->
++                                  case go2 ys1 ipv15 of { (# ipv17, ipv18 #) -> (# ipv17, : ipv16 ipv18 #) }
++                                  }
++                                  }
+                                   }
+                                   } } in
+                             case >=# 0# ipv1 of {
+                               __DEFAULT ->
+-                                case indexArray# ipv2 ipv of { (# ipv8 #) ->
++                                case indexArray# ipv2 ipv of { (# ipv10 #) ->
+                                 case ltWord# 0## (int2Word# bx1) of {
+                                   __DEFAULT -> case lvl108 0# bx1 of wild3 { };
+                                   1# ->
+                                     case writeArray#
+                                            (bx2 `cast` <Co:8> :: MutableArray# (PrimState IO) (Vector Int) ~R# MutableArray# (PrimState (ST (PrimState IO))) (Vector Int))
+                                            bx
+-                                           (case ipv8 of { I# x ->
++                                           (case ipv10 of { I# x ->
+                                             case >=# x 0# of {
+-                                              __DEFAULT -> case y1 `cast` <Co:3> :: Vector Int ~R# Vector Int of { Vector ipv9 ipv10 ipv11 -> lvl119 x ipv10 };
++                                              __DEFAULT -> case y1 `cast` <Co:3> :: Vector Int ~R# Vector Int of { Vector ipv11 ipv12 ipv13 -> lvl119 x ipv12 };
+                                               1# ->
+-                                                case y1 `cast` <Co:3> :: Vector Int ~R# Vector Int of { Vector ipv9 ipv10 ipv11 ->
+-                                                case <=# 5# (-# ipv10 x) of {
+-                                                  __DEFAULT -> lvl119 x ipv10;
+-                                                  1# -> (Vector (+# ipv9 x) 5# ipv11) `cast` <Co:5> :: Vector Int ~R# Vector Int
++                                                case y1 `cast` <Co:3> :: Vector Int ~R# Vector Int of { Vector ipv11 ipv12 ipv13 ->
++                                                case <=# 5# (-# ipv12 x) of {
++                                                  __DEFAULT -> lvl119 x ipv12;
++                                                  1# -> (Vector (+# ipv11 x) 5# ipv13) `cast` <Co:5> :: Vector Int ~R# Vector Int
+                                                 }
+                                                 }
+                                             }
+                                             })
+                                            (eta `cast` <Co:4> :: State# RealWorld ~R# State# (PrimState (ST (PrimState IO))))
+-                                    of s'#
++                                    of s'#1
+                                     { __DEFAULT ->
+                                     joinrec {
+                                       $sconsume_loop sc sc1 sc2
+                                         = case >=# sc1 ipv1 of {
+                                             __DEFAULT ->
+-                                              case indexArray# ipv2 (+# ipv sc1) of { (# ipv9 #) ->
++                                              case indexArray# ipv2 (+# ipv sc1) of { (# ipv11 #) ->
+                                               case ltWord# (int2Word# sc2) (int2Word# bx1) of {
+                                                 __DEFAULT -> case lvl108 sc2 bx1 of wild3 { };
+                                                 1# ->
+                                                   case writeArray#
+                                                          (bx2 `cast` <Co:8> :: MutableArray# (PrimState IO) (Vector Int) ~R# MutableArray# (PrimState (ST (PrimState IO))) (Vector Int))
+                                                          (+# bx sc2)
+-                                                         (case ipv9 of { I# x ->
++                                                         (case ipv11 of { I# x ->
+                                                           case >=# x 0# of {
+-                                                            __DEFAULT -> case y1 `cast` <Co:3> :: Vector Int ~R# Vector Int of { Vector ipv10 ipv11 ipv12 -> lvl119 x ipv11 };
++                                                            __DEFAULT -> case y1 `cast` <Co:3> :: Vector Int ~R# Vector Int of { Vector ipv12 ipv13 ipv14 -> lvl119 x ipv13 };
+                                                             1# ->
+-                                                              case y1 `cast` <Co:3> :: Vector Int ~R# Vector Int of { Vector ipv10 ipv11 ipv12 ->
+-                                                              case <=# 5# (-# ipv11 x) of {
+-                                                                __DEFAULT -> lvl119 x ipv11;
+-                                                                1# -> (Vector (+# ipv10 x) 5# ipv12) `cast` <Co:5> :: Vector Int ~R# Vector Int
++                                                              case y1 `cast` <Co:3> :: Vector Int ~R# Vector Int of { Vector ipv12 ipv13 ipv14 ->
++                                                              case <=# 5# (-# ipv13 x) of {
++                                                                __DEFAULT -> lvl119 x ipv13;
++                                                                1# -> (Vector (+# ipv12 x) 5# ipv14) `cast` <Co:5> :: Vector Int ~R# Vector Int
+                                                               }
+                                                               }
+                                                           }
+                                                           })
+                                                          (sc `cast` <Co:4> :: State# RealWorld ~R# State# (PrimState (ST (PrimState IO))))
+-                                                  of s'#1
++                                                  of s'#2
+                                                   { __DEFAULT ->
+-                                                  jump $sconsume_loop (s'#1 `cast` <Co:3> :: State# (PrimState (ST (PrimState IO))) ~R# State# RealWorld) (+# sc1 1#) (+# sc2 1#)
++                                                  jump $sconsume_loop (s'#2 `cast` <Co:3> :: State# (PrimState (ST (PrimState IO))) ~R# State# RealWorld) (+# sc1 1#) (+# sc2 1#)
+                                                   }
+                                               }
+                                               };
+                                             1# -> jump $w$j1 sc
+                                           }; } in
+-                                    jump $sconsume_loop (s'# `cast` <Co:3> :: State# (PrimState (ST (PrimState IO))) ~R# State# RealWorld) 1# 1#
++                                    jump $sconsume_loop (s'#1 `cast` <Co:3> :: State# (PrimState (ST (PrimState IO))) ~R# State# RealWorld) 1# 1#
+                                     }
+                                 }
+                                 };
+                               1# -> jump $w$j1 eta
+                             }
+                         }; } in
+-                case go2 ys ipv6 of { (# ipv8, ipv9 #) ->
+-                (# ipv8,
++                case go2 ys ipv8 of { (# ipv10, ipv11 #) ->
++                (# ipv10,
+                    joinrec {
+-                     $wgo3 ds3 ww
+-                       = case ds3 of {
++                     $wgo3 ds4 ww
++                       = case ds4 of {
+                            [] -> I# ww;
+                            : y1 ys1 ->
+                              case y1 of { I# y2 ->
+@@ -500,7 +516,9 @@
+                              }
+                              }
+                          }; } in
+-                   case ipv7 of { I# ww -> jump $wgo3 ipv9 ww } #)
++                   case ipv9 of { I# ww -> jump $wgo3 ipv11 ww } #)
++                }
++                }
+                 }
+                 }
+                 }
