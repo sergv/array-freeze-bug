@@ -1,0 +1,1003 @@
+
+==================== Tidy Core ====================
+2022-11-15 00:22:25.740280993 UTC
+
+Result size of Tidy Core = {terms: 1,583, types: 1,476, coercions: 393, joins: 8/21}
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl = I# 13#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl1 = I# 259#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl2 = I# 12#
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl3 = "src/Data/Vector/Generic.hs"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl4 = unpackCString# lvl3
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl5 = "Data.Vector.Generic"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl6 = unpackCString# lvl5
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl7 = "vector-0.13.0.0-cf11fd76eb0fc97c1e8988286bdd3a9bd31b535a99432490f2457fde28db1191"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl8 = unpackCString# lvl7
+
+-- RHS size: {terms: 8, types: 0, coercions: 0, joins: 0/0}
+lvl9 = SrcLoc lvl8 lvl6 lvl4 lvl1 lvl2 lvl1 lvl
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl10 = "!"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl11 = unpackCString# lvl10
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl12 = PushCallStack lvl11 lvl9 EmptyCallStack
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl13 = I# 21#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl14 = I# 245#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl15 = I# 11#
+
+-- RHS size: {terms: 8, types: 0, coercions: 0, joins: 0/0}
+lvl16 = SrcLoc lvl8 lvl6 lvl4 lvl14 lvl15 lvl14 lvl13
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl17 = "checkIndex"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl18 = unpackCString# lvl17
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl19 = PushCallStack lvl18 lvl16 lvl12
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl20 = I# 10#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl21 = I# 119#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl22 = I# 5#
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl23 = "src/Data/Vector/Internal/Check.hs"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl24 = unpackCString# lvl23
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl25 = "Data.Vector.Internal.Check"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl26 = unpackCString# lvl25
+
+-- RHS size: {terms: 8, types: 0, coercions: 0, joins: 0/0}
+lvl27 = SrcLoc lvl8 lvl26 lvl24 lvl21 lvl22 lvl21 lvl20
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl28 = "check"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl29 = unpackCString# lvl28
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl30 = PushCallStack lvl29 lvl27 lvl19
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl31 = I# 27#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl32 = I# 106#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl33 = I# 17#
+
+-- RHS size: {terms: 8, types: 0, coercions: 0, joins: 0/0}
+lvl34 = SrcLoc lvl8 lvl26 lvl24 lvl32 lvl33 lvl32 lvl31
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl35 = "checkError"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl36 = unpackCString# lvl35
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl37 = PushCallStack lvl36 lvl34 lvl30
+
+-- RHS size: {terms: 7, types: 2, coercions: 4, joins: 0/0}
+lvl38 = \ ipv -> checkError (lvl37 `cast` <Co:4> :: CallStack ~R# (?callStack::CallStack)) Bounds (checkIndex_msg# 0# ipv)
+
+-- RHS size: {terms: 7, types: 3, coercions: 4, joins: 0/0}
+lvl39 = \ ipv -> checkError (lvl37 `cast` <Co:4> :: CallStack ~R# (?callStack::CallStack)) Bounds (checkIndex_msg# 0# ipv)
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl40 = I# 15#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl41 = I# 408#
+
+-- RHS size: {terms: 8, types: 0, coercions: 0, joins: 0/0}
+lvl42 = SrcLoc lvl8 lvl6 lvl4 lvl41 lvl20 lvl41 lvl40
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl43 = "slice"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl44 = unpackCString# lvl43
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl45 = PushCallStack lvl44 lvl42 EmptyCallStack
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl46 = I# 25#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl47 = I# 396#
+
+-- RHS size: {terms: 8, types: 0, coercions: 0, joins: 0/0}
+lvl48 = SrcLoc lvl8 lvl6 lvl4 lvl47 lvl40 lvl47 lvl46
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl49 = "checkSlice"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl50 = unpackCString# lvl49
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl51 = PushCallStack lvl50 lvl48 lvl45
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl52 = I# 146#
+
+-- RHS size: {terms: 8, types: 0, coercions: 0, joins: 0/0}
+lvl53 = SrcLoc lvl8 lvl26 lvl24 lvl52 lvl22 lvl52 lvl20
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl54 = PushCallStack lvl29 lvl53 lvl51
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl55 = PushCallStack lvl36 lvl34 lvl54
+
+-- RHS size: {terms: 9, types: 5, coercions: 4, joins: 0/0}
+lvl56 = \ m# n# -> checkError (lvl55 `cast` <Co:4> :: CallStack ~R# (?callStack::CallStack)) Bounds (checkSlice_msg# 1# m# n#)
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl61 = "error"#
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl63 = "Data.Vector.Primitive.Mutable"#
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl65 = "src/Data/Vector/Primitive/Mutable.hs"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl67 = I# 140#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl68 = I# 16#
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl71 = "Primitive.basicUnsafeNew: length too large: "#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl73 = I# 139#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl74 = I# 20#
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl77 = "Primitive.basicUnsafeNew: negative length: "#
+
+Rec {
+-- RHS size: {terms: 17, types: 5, coercions: 0, joins: 0/0}
+go
+  = \ addr z ->
+      case indexCharOffAddr# addr 0# of ch {
+        __DEFAULT -> : (C# ch) (go (plusAddr# addr 1#) z);
+        '\NUL'# -> z
+      }
+end Rec }
+
+-- RHS size: {terms: 3, types: 1, coercions: 0, joins: 0/0}
+lvl79 = go lvl61 []
+
+-- RHS size: {terms: 3, types: 1, coercions: 0, joins: 0/0}
+lvl80 = go lvl7 []
+
+-- RHS size: {terms: 3, types: 1, coercions: 0, joins: 0/0}
+lvl81 = go lvl63 []
+
+-- RHS size: {terms: 3, types: 1, coercions: 0, joins: 0/0}
+lvl82 = go lvl65 []
+
+-- RHS size: {terms: 8, types: 0, coercions: 0, joins: 0/0}
+lvl83 = SrcLoc lvl80 lvl81 lvl82 lvl67 lvl68 lvl67 lvl13
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl84 = PushCallStack lvl79 lvl83 EmptyCallStack
+
+-- RHS size: {terms: 8, types: 0, coercions: 0, joins: 0/0}
+lvl86 = SrcLoc lvl80 lvl81 lvl82 lvl73 lvl40 lvl73 lvl74
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl87 = PushCallStack lvl79 lvl86 EmptyCallStack
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+$trModule4 = "main"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+$trModule3 = TrNameS $trModule4
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+$trModule2 = "Main"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+$trModule1 = TrNameS $trModule2
+
+-- RHS size: {terms: 3, types: 0, coercions: 0, joins: 0/0}
+$trModule = Module $trModule3 $trModule1
+
+Rec {
+-- RHS size: {terms: 94, types: 39, coercions: 3, joins: 0/2}
+$wprocessOne
+  = \ ww ww1 ww2 ww3 ->
+      case ww1 of wild3 {
+        __DEFAULT ->
+          case ltWord# 0## (int2Word# wild3) of {
+            __DEFAULT -> case lvl39 wild3 of wild { };
+            1# ->
+              case indexArray# ww2 ww of { (# ipv #) ->
+              case ipv `cast` <Co:3> :: Vector Int ~R# Vector Int of { Vector ipv1 ipv2 ipv3 ->
+              case ltWord# 0## (int2Word# ipv2) of {
+                __DEFAULT -> case lvl38 ipv2 of wild { };
+                1# ->
+                  case indexIntArray# ipv3 ipv1 of wild2 { __DEFAULT ->
+                  case <=# ww3 wild2 of {
+                    __DEFAULT ->
+                      let { eta1 = -# wild3 1# } in
+                      case >=# eta1 0# of {
+                        __DEFAULT -> case lvl56 eta1 wild3 of wild { };
+                        1# -> $wprocessOne (+# ww 1#) eta1 ww2 (+# ww3 1#)
+                      };
+                    1# ->
+                      let { eta1 = -# wild3 1# } in
+                      case >=# eta1 0# of {
+                        __DEFAULT -> case lvl56 eta1 wild3 of wild { };
+                        1# -> $wprocessOne (+# ww 1#) eta1 ww2 (+# wild2 1#)
+                      }
+                  }
+                  }
+              }
+              }
+              }
+          };
+        0# -> ww3
+      }
+end Rec }
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl89 = "Data.Vector.Generic.Mutable"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl90 = unpackCString# lvl89
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl91 = "src/Data/Vector/Generic/Mutable.hs"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl92 = unpackCString# lvl91
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl93 = I# 676#
+
+-- RHS size: {terms: 8, types: 0, coercions: 0, joins: 0/0}
+lvl94 = SrcLoc lvl8 lvl90 lvl92 lvl93 lvl40 lvl93 lvl46
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl95 = "write"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl96 = unpackCString# lvl95
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl97 = "Data.Vector.Mutable"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl98 = unpackCString# lvl97
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl99 = "src/Data/Vector/Mutable.hs"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl100 = unpackCString# lvl99
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl101 = I# 463#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl102 = I# 9#
+
+-- RHS size: {terms: 8, types: 0, coercions: 0, joins: 0/0}
+lvl103 = SrcLoc lvl8 lvl98 lvl100 lvl101 lvl102 lvl101 lvl68
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl104 = PushCallStack lvl96 lvl103 EmptyCallStack
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl105 = PushCallStack lvl18 lvl94 lvl104
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl106 = PushCallStack lvl29 lvl27 lvl105
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl107 = PushCallStack lvl36 lvl34 lvl106
+
+-- RHS size: {terms: 8, types: 4, coercions: 4, joins: 0/0}
+lvl108 = \ i bx1 -> checkError (lvl107 `cast` <Co:4> :: CallStack ~R# (?callStack::CallStack)) Bounds (checkIndex_msg# i bx1)
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl109 = "Data.Vector.Unboxed"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl110 = unpackCString# lvl109
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl111 = "src/Data/Vector/Unboxed.hs"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl112 = unpackCString# lvl111
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl113 = I# 403#
+
+-- RHS size: {terms: 8, types: 0, coercions: 0, joins: 0/0}
+lvl114 = SrcLoc lvl8 lvl110 lvl112 lvl113 lvl102 lvl113 lvl68
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl115 = PushCallStack lvl44 lvl114 EmptyCallStack
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl116 = PushCallStack lvl50 lvl48 lvl115
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl117 = PushCallStack lvl29 lvl53 lvl116
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl118 = PushCallStack lvl36 lvl34 lvl117
+
+-- RHS size: {terms: 9, types: 4, coercions: 4, joins: 0/0}
+lvl119 = \ x ipv -> checkError (lvl118 `cast` <Co:4> :: CallStack ~R# (?callStack::CallStack)) Bounds (checkSlice_msg# x 5# ipv)
+
+-- RHS size: {terms: 419, types: 419, coercions: 134, joins: 5/6}
+main3
+  = \ store haystacks needle s ->
+      case haystacks of {
+        [] -> (# s, minimum2 #);
+        : y ys ->
+          case needle of { Vector ipv ipv1 ipv2 ->
+          join {
+            $w$j ipv3
+              = case store of { MVector bx bx1 bx2 ->
+                case unsafeFreezeArray#
+                       (bx2 `cast` <Co:8> :: MutableArray# (PrimState IO) (Vector Int) ~R# MutableArray# (PrimState (ST (PrimState IO))) (Vector Int))
+                       (ipv3 `cast` <Co:4> :: State# RealWorld ~R# State# (PrimState (ST (PrimState IO))))
+                of
+                { (# ipv4, ipv5 #) ->
+                case seq#
+                       (case $wprocessOne bx bx1 ipv5 0# of ww { __DEFAULT -> I# ww })
+                       (ipv4 `cast` <Co:3> :: State# (PrimState (ST (PrimState IO))) ~R# State# RealWorld)
+                of
+                { (# ipv6, ipv7 #) ->
+                letrec {
+                  go2
+                    = \ ds2 eta ->
+                        case ds2 of {
+                          [] -> (# eta, [] #);
+                          : y1 ys1 ->
+                            join {
+                              $w$j1 ipv8
+                                = case unsafeFreezeArray#
+                                         (bx2 `cast` <Co:8> :: MutableArray# (PrimState IO) (Vector Int) ~R# MutableArray# (PrimState (ST (PrimState IO))) (Vector Int))
+                                         (ipv8 `cast` <Co:4> :: State# RealWorld ~R# State# (PrimState (ST (PrimState IO))))
+                                  of
+                                  { (# ipv9, ipv10 #) ->
+                                  case seq#
+                                         (case $wprocessOne bx bx1 ipv10 0# of ww { __DEFAULT -> I# ww })
+                                         (ipv9 `cast` <Co:3> :: State# (PrimState (ST (PrimState IO))) ~R# State# RealWorld)
+                                  of
+                                  { (# ipv11, ipv12 #) ->
+                                  case go2 ys1 ipv11 of { (# ipv13, ipv14 #) -> (# ipv13, : ipv12 ipv14 #) }
+                                  }
+                                  } } in
+                            case >=# 0# ipv1 of {
+                              __DEFAULT ->
+                                case indexArray# ipv2 ipv of { (# ipv8 #) ->
+                                case ltWord# 0## (int2Word# bx1) of {
+                                  __DEFAULT -> case lvl108 0# bx1 of wild3 { };
+                                  1# ->
+                                    case writeArray#
+                                           (bx2 `cast` <Co:8> :: MutableArray# (PrimState IO) (Vector Int) ~R# MutableArray# (PrimState (ST (PrimState IO))) (Vector Int))
+                                           bx
+                                           (case ipv8 of { I# x ->
+                                            case >=# x 0# of {
+                                              __DEFAULT -> case y1 `cast` <Co:3> :: Vector Int ~R# Vector Int of { Vector ipv9 ipv10 ipv11 -> lvl119 x ipv10 };
+                                              1# ->
+                                                case y1 `cast` <Co:3> :: Vector Int ~R# Vector Int of { Vector ipv9 ipv10 ipv11 ->
+                                                case <=# 5# (-# ipv10 x) of {
+                                                  __DEFAULT -> lvl119 x ipv10;
+                                                  1# -> (Vector (+# ipv9 x) 5# ipv11) `cast` <Co:5> :: Vector Int ~R# Vector Int
+                                                }
+                                                }
+                                            }
+                                            })
+                                           (eta `cast` <Co:4> :: State# RealWorld ~R# State# (PrimState (ST (PrimState IO))))
+                                    of s'#
+                                    { __DEFAULT ->
+                                    joinrec {
+                                      $sconsume_loop sc sc1 sc2
+                                        = case >=# sc1 ipv1 of {
+                                            __DEFAULT ->
+                                              case indexArray# ipv2 (+# ipv sc1) of { (# ipv9 #) ->
+                                              case ltWord# (int2Word# sc2) (int2Word# bx1) of {
+                                                __DEFAULT -> case lvl108 sc2 bx1 of wild3 { };
+                                                1# ->
+                                                  case writeArray#
+                                                         (bx2 `cast` <Co:8> :: MutableArray# (PrimState IO) (Vector Int) ~R# MutableArray# (PrimState (ST (PrimState IO))) (Vector Int))
+                                                         (+# bx sc2)
+                                                         (case ipv9 of { I# x ->
+                                                          case >=# x 0# of {
+                                                            __DEFAULT -> case y1 `cast` <Co:3> :: Vector Int ~R# Vector Int of { Vector ipv10 ipv11 ipv12 -> lvl119 x ipv11 };
+                                                            1# ->
+                                                              case y1 `cast` <Co:3> :: Vector Int ~R# Vector Int of { Vector ipv10 ipv11 ipv12 ->
+                                                              case <=# 5# (-# ipv11 x) of {
+                                                                __DEFAULT -> lvl119 x ipv11;
+                                                                1# -> (Vector (+# ipv10 x) 5# ipv12) `cast` <Co:5> :: Vector Int ~R# Vector Int
+                                                              }
+                                                              }
+                                                          }
+                                                          })
+                                                         (sc `cast` <Co:4> :: State# RealWorld ~R# State# (PrimState (ST (PrimState IO))))
+                                                  of s'#1
+                                                  { __DEFAULT ->
+                                                  jump $sconsume_loop (s'#1 `cast` <Co:3> :: State# (PrimState (ST (PrimState IO))) ~R# State# RealWorld) (+# sc1 1#) (+# sc2 1#)
+                                                  }
+                                              }
+                                              };
+                                            1# -> jump $w$j1 sc
+                                          }; } in
+                                    jump $sconsume_loop (s'# `cast` <Co:3> :: State# (PrimState (ST (PrimState IO))) ~R# State# RealWorld) 1# 1#
+                                    }
+                                }
+                                };
+                              1# -> jump $w$j1 eta
+                            }
+                        }; } in
+                case go2 ys ipv6 of { (# ipv8, ipv9 #) ->
+                (# ipv8,
+                   joinrec {
+                     $wgo3 ds3 ww
+                       = case ds3 of {
+                           [] -> I# ww;
+                           : y1 ys1 ->
+                             case y1 of { I# y2 ->
+                             case <=# ww y2 of {
+                               __DEFAULT -> jump $wgo3 ys1 y2;
+                               1# -> jump $wgo3 ys1 ww
+                             }
+                             }
+                         }; } in
+                   case ipv7 of { I# ww -> jump $wgo3 ipv9 ww } #)
+                }
+                }
+                }
+                } } in
+          case >=# 0# ipv1 of {
+            __DEFAULT ->
+              case indexArray# ipv2 ipv of { (# ipv3 #) ->
+              case store of { MVector bx bx1 bx2 ->
+              case ltWord# 0## (int2Word# bx1) of {
+                __DEFAULT -> case lvl108 0# bx1 of wild2 { };
+                1# ->
+                  case writeArray#
+                         (bx2 `cast` <Co:8> :: MutableArray# (PrimState IO) (Vector Int) ~R# MutableArray# (PrimState (ST (PrimState IO))) (Vector Int))
+                         bx
+                         (case ipv3 of { I# x ->
+                          case >=# x 0# of {
+                            __DEFAULT -> case y `cast` <Co:3> :: Vector Int ~R# Vector Int of { Vector ipv4 ipv5 ipv6 -> lvl119 x ipv5 };
+                            1# ->
+                              case y `cast` <Co:3> :: Vector Int ~R# Vector Int of { Vector ipv4 ipv5 ipv6 ->
+                              case <=# 5# (-# ipv5 x) of {
+                                __DEFAULT -> lvl119 x ipv5;
+                                1# -> (Vector (+# ipv4 x) 5# ipv6) `cast` <Co:5> :: Vector Int ~R# Vector Int
+                              }
+                              }
+                          }
+                          })
+                         (s `cast` <Co:4> :: State# RealWorld ~R# State# (PrimState (ST (PrimState IO))))
+                  of s'#
+                  { __DEFAULT ->
+                  joinrec {
+                    $sconsume_loop sc sc1 sc2
+                      = case >=# sc1 ipv1 of {
+                          __DEFAULT ->
+                            case indexArray# ipv2 (+# ipv sc1) of { (# ipv4 #) ->
+                            case ltWord# (int2Word# sc2) (int2Word# bx1) of {
+                              __DEFAULT -> case lvl108 sc2 bx1 of wild2 { };
+                              1# ->
+                                case writeArray#
+                                       (bx2 `cast` <Co:8> :: MutableArray# (PrimState IO) (Vector Int) ~R# MutableArray# (PrimState (ST (PrimState IO))) (Vector Int))
+                                       (+# bx sc2)
+                                       (case ipv4 of { I# x ->
+                                        case >=# x 0# of {
+                                          __DEFAULT -> case y `cast` <Co:3> :: Vector Int ~R# Vector Int of { Vector ipv5 ipv6 ipv7 -> lvl119 x ipv6 };
+                                          1# ->
+                                            case y `cast` <Co:3> :: Vector Int ~R# Vector Int of { Vector ipv5 ipv6 ipv7 ->
+                                            case <=# 5# (-# ipv6 x) of {
+                                              __DEFAULT -> lvl119 x ipv6;
+                                              1# -> (Vector (+# ipv5 x) 5# ipv7) `cast` <Co:5> :: Vector Int ~R# Vector Int
+                                            }
+                                            }
+                                        }
+                                        })
+                                       (sc `cast` <Co:4> :: State# RealWorld ~R# State# (PrimState (ST (PrimState IO))))
+                                of s'#1
+                                { __DEFAULT ->
+                                jump $sconsume_loop (s'#1 `cast` <Co:3> :: State# (PrimState (ST (PrimState IO))) ~R# State# RealWorld) (+# sc1 1#) (+# sc2 1#)
+                                }
+                            }
+                            };
+                          1# -> jump $w$j sc
+                        }; } in
+                  jump $sconsume_loop (s'# `cast` <Co:3> :: State# (PrimState (ST (PrimState IO))) ~R# State# RealWorld) 1# 1#
+                  }
+              }
+              }
+              };
+            1# -> jump $w$j s
+          }
+          }
+      }
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl120 = "abcdefghijklmnopqrstuvwxyz"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl121 = I# 132#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl122 = I# 22#
+
+-- RHS size: {terms: 8, types: 0, coercions: 0, joins: 0/0}
+lvl123 = SrcLoc lvl8 lvl26 lvl24 lvl121 lvl122 lvl121 lvl31
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl124 = "checkLength"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl125 = unpackCString# lvl124
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl126 = I# 465#
+
+-- RHS size: {terms: 8, types: 0, coercions: 0, joins: 0/0}
+lvl127 = SrcLoc lvl8 lvl90 lvl92 lvl126 lvl102 lvl126 lvl74
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+lvl128 = "new"#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl129 = unpackCString# lvl128
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl130 = I# 322#
+
+-- RHS size: {terms: 2, types: 0, coercions: 0, joins: 0/0}
+lvl131 = I# 7#
+
+-- RHS size: {terms: 8, types: 0, coercions: 0, joins: 0/0}
+lvl132 = SrcLoc lvl8 lvl98 lvl100 lvl130 lvl131 lvl130 lvl2
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl133 = PushCallStack lvl129 lvl132 EmptyCallStack
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl134 = PushCallStack lvl125 lvl127 lvl133
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl135 = PushCallStack lvl29 lvl123 lvl134
+
+-- RHS size: {terms: 4, types: 0, coercions: 0, joins: 0/0}
+lvl136 = PushCallStack lvl36 lvl34 lvl135
+
+-- RHS size: {terms: 6, types: 7, coercions: 4, joins: 0/0}
+main4 = \ n# -> checkError (lvl136 `cast` <Co:4> :: CallStack ~R# (?callStack::CallStack)) Bounds (checkLength_msg# n#)
+
+Rec {
+-- RHS size: {terms: 13, types: 4, coercions: 0, joins: 0/0}
+main_go3
+  = \ x ->
+      : (I# x)
+        (case x of wild {
+           __DEFAULT -> main_go3 (+# wild 1#);
+           10# -> []
+         })
+end Rec }
+
+-- RHS size: {terms: 8, types: 12, coercions: 4, joins: 0/0}
+lvl137 = \ x -> error (lvl87 `cast` <Co:4> :: CallStack ~R# (?callStack::CallStack)) (go lvl77 (itos x []))
+
+-- RHS size: {terms: 8, types: 12, coercions: 4, joins: 0/0}
+lvl138 = \ x -> error (lvl84 `cast` <Co:4> :: CallStack ~R# (?callStack::CallStack)) (go lvl71 (itos x []))
+
+Rec {
+-- RHS size: {terms: 147, types: 137, coercions: 47, joins: 1/4}
+$s$wfoldlM_loop
+  = \ ww ww1 ww2 ww3 s7 eta ->
+      case s7 of {
+        [] ->
+          case unsafeFreezeByteArray#
+                 (ww2 `cast` <Co:5> :: MutableByteArray# RealWorld ~R# MutableByteArray# (PrimState (ST (PrimState (ST RealWorld)))))
+                 (eta `cast` <Co:5> :: State# RealWorld ~R# State# (PrimState (ST (PrimState (ST RealWorld)))))
+          of
+          { (# ipv, ipv1 #) ->
+          (Vector ww ww3 ipv1) `cast` <Co:5> :: Vector Int ~R# Vector Int
+          };
+        : x xs1 ->
+          let { y = +# ww3 1# } in
+          case <# ww1 y of {
+            __DEFAULT ->
+              case x of { I# x# ->
+              case writeIntArray#
+                     (ww2 `cast` <Co:5> :: MutableByteArray# RealWorld ~R# MutableByteArray# (PrimState (ST (PrimState (ST RealWorld)))))
+                     (+# ww ww3)
+                     x#
+                     (eta `cast` <Co:5> :: State# RealWorld ~R# State# (PrimState (ST (PrimState (ST RealWorld)))))
+              of s'#
+              { __DEFAULT ->
+              $s$wfoldlM_loop ww ww1 ww2 y xs1 (s'# `cast` <Co:4> :: State# (PrimState (ST (PrimState (ST RealWorld)))) ~R# State# RealWorld)
+              }
+              };
+            1# ->
+              join {
+                $j x1
+                  = case <# x1 0# of {
+                      __DEFAULT ->
+                        case ># x1 1152921504606846975# of {
+                          __DEFAULT ->
+                            case newByteArray# (*# x1 8#) (eta `cast` <Co:5> :: State# RealWorld ~R# State# (PrimState (ST (PrimState (ST RealWorld))))) of
+                            { (# ipv, ipv1 #) ->
+                            case copyMutableByteArray#
+                                   (ww2 `cast` <Co:5> :: MutableByteArray# RealWorld ~R# MutableByteArray# (PrimState (ST (PrimState (ST RealWorld)))))
+                                   (*# ww 8#)
+                                   ipv1
+                                   0#
+                                   (*# ww1 8#)
+                                   ipv
+                            of s'#
+                            { __DEFAULT ->
+                            case x of { I# x# ->
+                            case writeIntArray# ipv1 ww3 x# s'# of s'#1 { __DEFAULT ->
+                            $s$wfoldlM_loop
+                              0#
+                              x1
+                              (ipv1 `cast` <Co:4> :: MutableByteArray# (PrimState (ST (PrimState (ST RealWorld)))) ~R# MutableByteArray# RealWorld)
+                              y
+                              xs1
+                              (s'#1 `cast` <Co:4> :: State# (PrimState (ST (PrimState (ST RealWorld)))) ~R# State# RealWorld)
+                            }
+                            }
+                            }
+                            };
+                          1# -> case lvl138 x1 of wild1 { }
+                        };
+                      1# -> case lvl137 x1 of wild1 { }
+                    } } in
+              case <=# ww1 1# of {
+                __DEFAULT ->
+                  let { y2 = -# y ww1 } in
+                  case <=# ww1 y2 of {
+                    __DEFAULT -> jump $j (*# 2# ww1);
+                    1# -> jump $j (+# ww1 y2)
+                  };
+                1# ->
+                  let { y2 = -# y ww1 } in
+                  case <=# 1# y2 of {
+                    __DEFAULT -> jump $j (+# ww1 1#);
+                    1# -> jump $j (+# ww1 y2)
+                  }
+              }
+          }
+      }
+end Rec }
+
+Rec {
+-- RHS size: {terms: 18, types: 5, coercions: 0, joins: 0/0}
+go1
+  = \ addr z ->
+      case indexCharOffAddr# addr 0# of ch {
+        __DEFAULT -> : (I# (ord# ch)) (go1 (plusAddr# addr 1#) z);
+        '\NUL'# -> z
+      }
+end Rec }
+
+Rec {
+-- RHS size: {terms: 31, types: 46, coercions: 13, joins: 0/0}
+main_go1
+  = \ x ->
+      : (runRW#
+           (\ s ->
+              case newByteArray# 0# (s `cast` <Co:5> :: State# RealWorld ~R# State# (PrimState (ST (PrimState (ST RealWorld))))) of
+              { (# ipv, ipv1 #) ->
+              $s$wfoldlM_loop
+                0#
+                0#
+                (ipv1 `cast` <Co:4> :: MutableByteArray# (PrimState (ST (PrimState (ST RealWorld)))) ~R# MutableByteArray# RealWorld)
+                0#
+                (go1 lvl120 (map ord (itos x [])))
+                (ipv `cast` <Co:4> :: State# (PrimState (ST (PrimState (ST RealWorld)))) ~R# State# RealWorld)
+              }))
+        (case x of wild {
+           __DEFAULT -> main_go1 (+# wild 1#);
+           10000# -> []
+         })
+end Rec }
+
+-- RHS size: {terms: 1, types: 0, coercions: 0, joins: 0/0}
+main2 = "res = "#
+
+-- RHS size: {terms: 271, types: 488, coercions: 155, joins: 2/9}
+$wmain
+  = \ s ->
+      runRW#
+        (\ s1 ->
+           case newArray# 0# uninitialised (s1 `cast` <Co:5> :: State# RealWorld ~R# State# (PrimState (ST (PrimState (ST RealWorld))))) of
+           { (# ipv, ipv1 #) ->
+           join {
+             $w$j ipv6 ww ww1 ww2
+               = case unsafeFreezeArray#
+                        (ww1 `cast` <Co:7> :: MutableArray# RealWorld Int ~R# MutableArray# (PrimState (ST (PrimState (ST RealWorld)))) Int)
+                        (ipv6 `cast` <Co:5> :: State# RealWorld ~R# State# (PrimState (ST (PrimState (ST RealWorld)))))
+                 of
+                 { (# ipv2, ipv3 #) ->
+                 case >=# ww2 0# of {
+                   __DEFAULT -> case main4 ww2 of wild { };
+                   1# ->
+                     case newArray# ww2 uninitialised (s `cast` <Co:5> :: State# RealWorld ~R# State# (PrimState (ST (PrimState (ST (PrimState IO)))))) of
+                     { (# ipv4, ipv5 #) ->
+                     case main3
+                            ((MVector
+                                0#
+                                ww2
+                                (ipv5
+                                 `cast` <Co:9> :: MutableArray# (PrimState (ST (PrimState (ST (PrimState IO))))) (Vector Int)
+                                                  ~R# MutableArray# (PrimState (ST (PrimState IO))) (Vector Int)))
+                             `cast` <Co:6> :: MVector (PrimState (ST (PrimState IO))) (Vector Int) ~R# MVector (PrimState IO) (Vector Int))
+                            (main_go1 1#)
+                            (Vector ww ww2 ipv3)
+                            (ipv4 `cast` <Co:4> :: State# (PrimState (ST (PrimState (ST (PrimState IO))))) ~R# State# RealWorld)
+                     of
+                     { (# ipv7, ipv8 #) ->
+                     case ipv8 of { I# ipv9 ->
+                     case hPutStr2 stdout (unpackAppendCString# main2 (itos ipv9 [])) True ipv7 of { (# ipv10, ipv11 #) -> ipv10 }
+                     }
+                     }
+                     }
+                 }
+                 } } in
+           joinrec {
+             $s$wfoldlM_loop1 sc sc1 sc2 sc3 sc4 sc5
+               = case sc1 of {
+                   [] -> jump $w$j sc sc5 sc3 sc2;
+                   : x xs1 ->
+                     let { y = +# sc2 1# } in
+                     case <# sc4 y of {
+                       __DEFAULT ->
+                         case writeArray#
+                                (sc3 `cast` <Co:7> :: MutableArray# RealWorld Int ~R# MutableArray# (PrimState (ST (PrimState (ST RealWorld)))) Int)
+                                (+# sc5 sc2)
+                                x
+                                (sc `cast` <Co:5> :: State# RealWorld ~R# State# (PrimState (ST (PrimState (ST RealWorld)))))
+                         of s'#
+                         { __DEFAULT ->
+                         jump $s$wfoldlM_loop1
+                           (s'# `cast` <Co:4> :: State# (PrimState (ST (PrimState (ST RealWorld)))) ~R# State# RealWorld) xs1 y sc3 sc4 sc5
+                         };
+                       1# ->
+                         case <=# sc4 1# of {
+                           __DEFAULT ->
+                             let { y2 = -# y sc4 } in
+                             case <=# sc4 y2 of {
+                               __DEFAULT ->
+                                 let { n# = *# 2# sc4 } in
+                                 case newArray# n# uninitialised (sc `cast` <Co:5> :: State# RealWorld ~R# State# (PrimState (ST (PrimState (ST RealWorld))))) of
+                                 { (# ipv2, ipv3 #) ->
+                                 case copyMutableArray#
+                                        (sc3 `cast` <Co:7> :: MutableArray# RealWorld Int ~R# MutableArray# (PrimState (ST (PrimState (ST RealWorld)))) Int)
+                                        sc5
+                                        ipv3
+                                        0#
+                                        sc4
+                                        ipv2
+                                 of s'#
+                                 { __DEFAULT ->
+                                 case writeArray# ipv3 sc2 x s'# of s'#1 { __DEFAULT ->
+                                 jump $s$wfoldlM_loop1
+                                   (s'#1 `cast` <Co:4> :: State# (PrimState (ST (PrimState (ST RealWorld)))) ~R# State# RealWorld)
+                                   xs1
+                                   y
+                                   (ipv3 `cast` <Co:6> :: MutableArray# (PrimState (ST (PrimState (ST RealWorld)))) Int ~R# MutableArray# RealWorld Int)
+                                   n#
+                                   0#
+                                 }
+                                 }
+                                 };
+                               1# ->
+                                 let { n# = +# sc4 y2 } in
+                                 case newArray# n# uninitialised (sc `cast` <Co:5> :: State# RealWorld ~R# State# (PrimState (ST (PrimState (ST RealWorld))))) of
+                                 { (# ipv2, ipv3 #) ->
+                                 case copyMutableArray#
+                                        (sc3 `cast` <Co:7> :: MutableArray# RealWorld Int ~R# MutableArray# (PrimState (ST (PrimState (ST RealWorld)))) Int)
+                                        sc5
+                                        ipv3
+                                        0#
+                                        sc4
+                                        ipv2
+                                 of s'#
+                                 { __DEFAULT ->
+                                 case writeArray# ipv3 sc2 x s'# of s'#1 { __DEFAULT ->
+                                 jump $s$wfoldlM_loop1
+                                   (s'#1 `cast` <Co:4> :: State# (PrimState (ST (PrimState (ST RealWorld)))) ~R# State# RealWorld)
+                                   xs1
+                                   y
+                                   (ipv3 `cast` <Co:6> :: MutableArray# (PrimState (ST (PrimState (ST RealWorld)))) Int ~R# MutableArray# RealWorld Int)
+                                   n#
+                                   0#
+                                 }
+                                 }
+                                 }
+                             };
+                           1# ->
+                             let { y2 = -# y sc4 } in
+                             case <=# 1# y2 of {
+                               __DEFAULT ->
+                                 let { n# = +# sc4 1# } in
+                                 case newArray# n# uninitialised (sc `cast` <Co:5> :: State# RealWorld ~R# State# (PrimState (ST (PrimState (ST RealWorld))))) of
+                                 { (# ipv2, ipv3 #) ->
+                                 case copyMutableArray#
+                                        (sc3 `cast` <Co:7> :: MutableArray# RealWorld Int ~R# MutableArray# (PrimState (ST (PrimState (ST RealWorld)))) Int)
+                                        sc5
+                                        ipv3
+                                        0#
+                                        sc4
+                                        ipv2
+                                 of s'#
+                                 { __DEFAULT ->
+                                 case writeArray# ipv3 sc2 x s'# of s'#1 { __DEFAULT ->
+                                 jump $s$wfoldlM_loop1
+                                   (s'#1 `cast` <Co:4> :: State# (PrimState (ST (PrimState (ST RealWorld)))) ~R# State# RealWorld)
+                                   xs1
+                                   y
+                                   (ipv3 `cast` <Co:6> :: MutableArray# (PrimState (ST (PrimState (ST RealWorld)))) Int ~R# MutableArray# RealWorld Int)
+                                   n#
+                                   0#
+                                 }
+                                 }
+                                 };
+                               1# ->
+                                 let { n# = +# sc4 y2 } in
+                                 case newArray# n# uninitialised (sc `cast` <Co:5> :: State# RealWorld ~R# State# (PrimState (ST (PrimState (ST RealWorld))))) of
+                                 { (# ipv2, ipv3 #) ->
+                                 case copyMutableArray#
+                                        (sc3 `cast` <Co:7> :: MutableArray# RealWorld Int ~R# MutableArray# (PrimState (ST (PrimState (ST RealWorld)))) Int)
+                                        sc5
+                                        ipv3
+                                        0#
+                                        sc4
+                                        ipv2
+                                 of s'#
+                                 { __DEFAULT ->
+                                 case writeArray# ipv3 sc2 x s'# of s'#1 { __DEFAULT ->
+                                 jump $s$wfoldlM_loop1
+                                   (s'#1 `cast` <Co:4> :: State# (PrimState (ST (PrimState (ST RealWorld)))) ~R# State# RealWorld)
+                                   xs1
+                                   y
+                                   (ipv3 `cast` <Co:6> :: MutableArray# (PrimState (ST (PrimState (ST RealWorld)))) Int ~R# MutableArray# RealWorld Int)
+                                   n#
+                                   0#
+                                 }
+                                 }
+                                 }
+                             }
+                         }
+                     }
+                 }; } in
+           jump $s$wfoldlM_loop1
+             (ipv `cast` <Co:4> :: State# (PrimState (ST (PrimState (ST RealWorld)))) ~R# State# RealWorld)
+             (main_go3 1#)
+             0#
+             (ipv1 `cast` <Co:6> :: MutableArray# (PrimState (ST (PrimState (ST RealWorld)))) Int ~R# MutableArray# RealWorld Int)
+             0#
+             0#
+           })
+
+-- RHS size: {terms: 8, types: 9, coercions: 0, joins: 0/0}
+main1 = \ s -> case $wmain s of ww { __DEFAULT -> (# ww, () #) }
+
+-- RHS size: {terms: 1, types: 0, coercions: 3, joins: 0/0}
+main = main1 `cast` <Co:3> :: (State# RealWorld -> (# State# RealWorld, () #)) ~R# IO ()
+
+-- RHS size: {terms: 2, types: 1, coercions: 3, joins: 0/0}
+main5 = runMainIO1 (main1 `cast` <Co:3> :: (State# RealWorld -> (# State# RealWorld, () #)) ~R# IO ())
+
+-- RHS size: {terms: 1, types: 0, coercions: 3, joins: 0/0}
+main = main5 `cast` <Co:3> :: (State# RealWorld -> (# State# RealWorld, () #)) ~R# IO ()
+
+
+------ Local rules for imported ids --------
+"SPEC/Main stream @Vector @(Vector Int)" [1]
+    forall $dVector.
+      stream $dVector
+      = \ v1 ->
+          let {
+            vstep
+              = \ ds ->
+                  case ds of {
+                    False -> Done `cast` <Co:8> :: Step Bool (Chunk Vector (Vector Int)) ~R# Id (Step Bool (Chunk Vector (Vector Int)));
+                    True ->
+                      ($WYield
+                         (Chunk
+                            ($fVectorVectora_$cbasicLength v1)
+                            (\ @m1 $dPrimMonad _ mv ->
+                               primitive
+                                 $dPrimMonad
+                                 (\ eta ->
+                                    case mv `cast` <Co:6> :: Mutable Vector (PrimState m1) (Vector Int) ~R# MVector (PrimState m1) (Vector Int) of
+                                    { MVector bx bx1 bx2 ->
+                                    case v1 of { Vector bx3 bx4 bx5 ->
+                                    case copyArray#
+                                           bx5
+                                           bx3
+                                           (bx2 `cast` <Co:8> :: MutableArray# (PrimState m1) (Vector Int) ~R# MutableArray# (PrimState (ST (PrimState m1))) (Vector Int))
+                                           bx
+                                           bx1
+                                           (eta `cast` <Co:5> :: State# (PrimState m1) ~R# State# (PrimState (ST (PrimState m1))))
+                                    of s'#
+                                    { __DEFAULT ->
+                                    (# s'#, () #) `cast` <Co:8> :: (# State# (PrimState (ST (PrimState m1))), () #) ~R# (# State# (PrimState m1), () #)
+                                    }
+                                    }
+                                    })))
+                         False)
+                      `cast` <Co:8> :: Step Bool (Chunk Vector (Vector Int)) ~R# Id (Step Bool (Chunk Vector (Vector Int)))
+                  } } in
+          let { n = case v1 of { Vector bx bx1 bx2 -> I# bx1 } } in
+          let {
+            step1
+              = \ i ->
+                  case i of { I# x ->
+                  case v1 of { Vector bx bx1 bx2 ->
+                  case >=# x bx1 of {
+                    __DEFAULT ->
+                      case indexArray# bx2 (+# bx x) of { (# ipv #) ->
+                      ($WYield ipv (I# (+# x 1#))) `cast` <Co:6> :: Step Int (Vector Int) ~R# Id (Step Int (Vector Int))
+                      };
+                    1# -> Done `cast` <Co:6> :: Step Int (Vector Int) ~R# Id (Step Int (Vector Int))
+                  }
+                  }
+                  } } in
+          case v1 of v2 { Vector ipv ipv1 ipv2 -> Bundle (Stream step1 (I# 0#)) (Stream vstep True) (Just v2) (Exact (I# ipv1)) }
+
